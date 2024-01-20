@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- CSS links -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+
+    <!-- js link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <title>Website</title>
+
+    <!-- style -->
+    <style>
+        *{
+            margin: 0;
+    padding: 0;
+    border: 0;
+        }
+      .container-fluid {
+        background-color: rgb(0, 144, 207);
+        text-align: center;
+        padding: 20px;
+      }
+
+     
+      .number{
+        font-size: 40px;
+        color: red;
+      }
+
+      .col-md-4 p{
+        font-size: 20px;
+      }
+
+      .row {
+        margin-bottom: 20px;
+      }
+
+      input{
+        height: 40px;
+        width: 358.8px;
+      }
+
+     
+      .row button {
+        background-color: rgb(246, 130, 45);
+        border-radius: 6px;
+        box-shadow: 2px 2px 4px 0px;
+        font-weight: 500;
+        font-size: 24px;
+        height: 40px;
+        width: 73px;
+
+      }
+
+      button:hover {
+        background-color: rgb(57, 82, 139);
+        cursor: pointer;
+      }
+
+      .registerbtn {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 15px;
+      }
+
+      .registerbtn button {
+        width: 100%;
+        width: 40%;
+        background-color:#FAE900;
+        font-size: 30px;
+        animation: zoomInOut 1s infinite alternate; /* Set the animation */
+      }
+
+      @keyframes zoomInOut {
+        0% {
+          transform: scale(1);
+        }
+        100% {
+          transform: scale(1.1);
+        }
+      }
+
+.container input{
+    height: 50px;
+    font-size: 20px;
+
+}
+
+      .container button {
+        background-color: rgb(246, 130, 45);
+        border-radius: 6px;
+        box-shadow: 2px 2px 4px 0px;
+        font-weight: 500;
+        font-size: 24px;
+        height: 50px;
+        width: 100px;
+
+      }
+
+      .container button:hover {
+        background-color: rgb(57, 82, 139);
+        cursor: pointer;
+      }
+      .btngroup button{
+       font-size: 20px;
+       width: 10%;
+       height: 60px;
+       border-radius: 20px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row text-white">
+        <div class="container col-md-12">
+            
+          <p style="font-size: 70px; font-family: 'Franklin Gothic Medium', 'Arial Narrow';">Welcome to 4Networking</p>
+          <h3 style="color: black;">It's the new era of 4N</h3>
+          <p style="font-size: 18px;">
+            4N membership offers everything you need to grow your business. Find
+            a voice, advice, a marketplace to show your expertise, pitch your
+            products and services, meet new clients, contacts, suppliers, and
+            make friends. Sound good?
+          </p>
+        </div>
+      </div>
+
+      <div class="row" style="background-color: rgb(250, 233, 0);">
+        <div class="col-md-4">
+          <strong class="number">7478</strong>
+          <p><strong>Businesses registered </strong></p>
+        </div>
+
+        <div class="col-md-4">
+          <strong class="number">57</strong>
+          <p><strong>People joined in the last week </strong></p>
+        </div>
+        <div class="col-md-4">
+          <strong class="number">10</strong>
+          <p><strong>Today </strong></p>
+        </div>
+      </div>
+
+
+      <div class="row" style="background-color: rgb(0, 144, 207);">
+        <div class="col-md-12 my-0">
+          <h3 class="text-light">Helping UK businesses grow, work and succeed since 2006</h3>
+          <p style="font-size: 64px;font-weight: bolder; color: black;">£750+ million generated</p>
+          <h3 class="text-light">In sales for our members, and then we stopped counting!</h3>
+          <input
+            type="text"
+            placeholder="Search our UK wide business directory..."
+            class="w-25"
+            style="border-radius: 3px; border: none"
+          />
+          <div>
+            <button class="btn-shadow-black text-white r-2">GO!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+<div class="container-fluid bg-light">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 p-2 w-75 m-auto text-center">
+        <div class="col mb-4">
+          <div class="card h-100 border-0">
+            <img src="online community.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+                <h1 class="card-title h4">Online Community</h1>
+                <p class="card-text small m-3">
+                    24/7 access to our online community where you can continue your
+                    networking, your way, at a time that suits.. This content is a
+                    little bit longer.
+                  </p>
+                  </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="networking events.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+                <h1 class="card-title h4">Networking Events</h1>
+                <p class="card-text small m-3">
+                    4N provides networking and opportunities to connect with others
+                    online and face-to-face with our hybrid network and expos.
+                  </p>
+                  </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="business directory.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+                <h1 class="card-title h4">Business Directory</h1>
+                <p class="card-text small m-3">
+                    Google loves us. And so will you. Our Business Directory keeps
+                    members connected and helps you find new connections.
+                  </p>
+                  </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="personal development.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+                <h1 class="card-title h4">Personal Development</h1>
+                <p class="card-text small m-3">
+                    Up-skilling, inspiration, motivation, education... we're taking 18
+                    years of 4Sight presentations to a new level in 2024!.
+                  </p>
+                  </div>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="registerbtn d-flex justify-content-center">
+        <button>
+          <strong>Register your business here for <span class="text-danger">FREE</span></strong>
+        </button>
+      </div>
+    </div>
+
+
+
+    <div class="container-fluid justify-content-center">
+        <div class="container mx-auto rounded p-3 ">
+            <p class="text-light" style="font-size: 45px; font-weight: bolder;">What is 4Networking?</p>
+            <div style="background-color: white">
+                <div class="d-flex">
+                    <div class="m-4 rounded" style="background-color:rgb(0, 144, 207); padding: 15px;">
+                        <img src="4N.png" alt="4N Logo" class="m-3 rounded" width="80%" style="background-color:white;" />
+                        <p class="text-light" style="font-weight: bolder;">Mix Social Business</p>
+                    </div>
+                    <div class="m-4 rounded" style="background-color:rgb(0, 144, 207); padding: 15px;">
+                        <h1 class="text-light">What to expect <span class="text-dark">at a </span>4N <span class="text-dark"> event?</span> </h1>
+                        <img src="40sec.png" alt="40 Second Presentation" style="width: 30%;" />
+                        <img src="4sight.png" alt="4Sight Presentation" style="width: 30%;" />
+                        <img src="3x1-2-1Business.png" alt="3x1-2-1 Business" style="width: 30%;" />
+                        <div>
+                            <h2 class="text-light">50% Social. 50% Business.</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>          
+    </body>
+
+    <div class="container mb-5">
+
+    </div>
+   <div class="container-fluid rounded" style="background-color: #FAE900;">
+    <div class="conatiner">
+        <p style="font-size: 64px; color: black; font-weight: bolder;">Our Meetings</p>
+   
+        <div class="container">           
+             <p style="font-size: 20px;">Every big opportunity starts with a little conversation. Where are you booking next?
+                Our upcoming events can be found here. Have a nosey, choose what suits you and get booked in!</p>
+                <p style="font-size: 20px; font-weight: bolder;">OPEN CALENDAR VIEW IN NEW TAB</p>
+        </div>
+        <div class="container mb-1">
+            <input type="text" placeholder="  Search our meetings" class="w-50 shadow rounded mx-2">
+            <button>SEARCH</button>
+        </div>
+
+        <div class="container mt-2">
+            <div class="row d-flex justify-content-center">
+              <div class="col-md-2">
+                <button id="datepicker" class="btn btn-light w-100">Select Date</button>
+              </div>
+              <div class="col-md-2">
+                <input type="text" id="selectedDate" placeholder="Selected Date" class="form-control btn btn-light" disabled>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <div class="container mt-2">
+        <p  style="font-size: 30px;"> <strong>Looking for a particular style or format?</strong> </p>
+        <p  style="font-size: 20px;"> 
+            Use the buttons below to filter what's shown - and as a guide to the colour code used on the events</p>
+    </div>
+    <div class="btngroup m-auto">
+        <button type="button" class="btn btn-outline-light" style="background-color: gray;">Face-to-Face</button>
+        <button type="button" class="btn btn-outline-light" style="background-color: purple;">Online</button>
+        <button type="button" class="btn btn-outline-light" style="background-color: red;">Speed</button>
+        <button type="button" class="btn btn-outline-light" style="background-color:blue" >Other</button>
+        <button type="button" class="btn btn-outline-light" style="background-color:lightskyblue">Learning</button>
+        <button type="button" class="btn btn-outline-light" style="background:linear-gradient(25,blue,gray);">Hide All</button>
+    </div>
+    </div>
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+<script>
+    $(document).ready(function(){
+      $('#datepicker').datepicker({
+        format: 'yyyy-mm-dd',
+        autoclose: true,
+        todayHighlight: true
+      }).on('changeDate', function(e){
+        // Update the value of the second input box with the selected date
+        $('#selectedDate').val(e.format());
+      });
+    });
+  </script>
+  </body>
+</html>
